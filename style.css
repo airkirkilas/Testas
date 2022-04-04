@@ -1,0 +1,71 @@
+/*Hederis*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header img{
+    width: 200px;
+    height: 30px;
+}
+a {
+    text-decoration: none;
+   color: rgb(000,000,000);
+   align-items: right;
+   padding-left: 5px;
+}
+span a {
+   color:rgb(255, 57, 150);
+
+}
+/*main*/
+span{
+    color: rgb(255, 57, 150);
+}
+a span.OpenSea{
+    text-decoration: underline;
+    color: black;
+}
+button{
+    border-radius: 50px;
+}
+h1{
+    margin: 0;
+
+}
+.background{
+   background-image: url("assets/background.svg")
+}
+.flex-container{
+    display: inline-flex;
+}
+.flex-container table{
+  display: inline-table;
+  width: 100%;
+  border-spacing: 20px;
+  font-size: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.flex-container img{
+    width: 200px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.flex-container td img{
+    width: 15px;
+    height: 15px;
+    padding: 0;
+}
+td span{
+    color:rgba(255, 129, 57, 1);
+}
+footer img{
+    width: 100px;
+    height: 40px;
+}
+table.about{
+    padding-left: 80%;
+}
